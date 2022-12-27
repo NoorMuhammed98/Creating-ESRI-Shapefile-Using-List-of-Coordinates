@@ -8,7 +8,7 @@ newdata = gpd.GeoDataFrame()
 # Create a new column called 'geometry' to the GeoDataFrame
 newdata['geometry'] = None
 
-# Coordinates of the Helsinki Senate square in Decimal Degrees
+# Coordinates in Decimal Degrees
 coordinates = [(68.286203,27.887253),(68.339318,27.888519),(68.339854,27.859459),(68.268450,27.861073)]
 
 # Create a Shapely polygon from the coordinate-tuple list
